@@ -1,0 +1,22 @@
+/* 기존 CSS 규칙 */
+table, td, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+ td {
+  width: 150px; 
+  height: 50px;
+  padding: 5px;
+  font-size: 20px;
+} 
+
+input, select {
+  font-size: 20px;
+}
+
+ .flex-container {
+	display:flex;
+	flex-direction: column; 
+}
